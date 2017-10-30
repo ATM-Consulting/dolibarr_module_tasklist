@@ -111,5 +111,13 @@
 		</div>
 		<div id="dialogforpopup" style="display: none;"></div>
 		<script src="js/fonctions.js" type="text/javascript"></script>
+		
+		<?php
+		
+			$hookmanager->initHooks(array('tasklistcard'));
+			$reshook = $hookmanager->executeHooks('endActions', $parameters, $object, $action);
+		
+		?>
+		
 	</body>
 </html>
