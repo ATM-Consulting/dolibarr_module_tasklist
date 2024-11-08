@@ -3,6 +3,7 @@
 ## Not Released
 
 ## Release 3.2
+- FIX : error syntaxe - *08/11/2024* - 3.2.1
 - NEW : COMPATV20 - *25/07/2024* - 3.2.0
 
 ## Release 3.1
